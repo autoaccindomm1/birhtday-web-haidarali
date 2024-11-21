@@ -1,0 +1,89 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); /* Space-like Gradient */
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+#countdown {
+  margin: 50px 0;
+}
+
+#countdown h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#timer p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#message {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.message-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.cta-button {
+  background-color: #ff7f50;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ff6347;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 16px;
+  color: white;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
